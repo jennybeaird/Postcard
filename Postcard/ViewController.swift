@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func sendMailButtonPressed(sender: AnyObject) {
-        
+        // Learning how to add comments and commit
         messageLabelText.hidden = false
         messageLabelText.text = enterMessageTextField.text
         enterMessageTextField.text = ""
